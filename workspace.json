@@ -1,8 +1,10 @@
 {
   "version": 1,
-  "lastopen": "@workspace",
+  "lastopen": "mdw9pj1jndkd6gqk0xo",
   "expanded": {
-    "@workspace": {}
+    "@workspace": {},
+    "@calendar": {},
+    "mdw9pj1jndkd6gqk0xo": {}
   },
   "nodes": [
     {
@@ -33,7 +35,9 @@
       "ID": "@calendar",
       "Name": "Calendar",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "mdw9pj1i6mswuehu64f"
+        ],
         "Components": []
       },
       "Attrs": {},
@@ -48,6 +52,40 @@
       },
       "Attrs": {},
       "Parent": "@workspace"
+    },
+    {
+      "ID": "mdw9pj1i6mswuehu64f",
+      "Name": "2025",
+      "Linked": {
+        "Children": [
+          "mdw9pj1jqb5f4mmr2jm"
+        ],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@calendar"
+    },
+    {
+      "ID": "mdw9pj1jqb5f4mmr2jm",
+      "Name": "Week 31",
+      "Linked": {
+        "Children": [
+          "mdw9pj1jndkd6gqk0xo"
+        ],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "mdw9pj1i6mswuehu64f"
+    },
+    {
+      "ID": "mdw9pj1jndkd6gqk0xo",
+      "Name": "Sun, 03 Aug ",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "mdw9pj1jqb5f4mmr2jm"
     }
   ],
   "settings": {}
